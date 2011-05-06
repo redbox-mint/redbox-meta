@@ -4,7 +4,7 @@
     <groupId>com.googlecode.redbox-mint</groupId>
     <artifactId>redbox-meta</artifactId>
     <packaging>pom</packaging>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <name>ReDBox-Meta</name>
 
     <description>
@@ -13,9 +13,9 @@
     <url>http://redbox-mint.googlecode.com/</url>
     <inceptionYear>2010</inceptionYear>
     <scm>
-        <url>http://redbox-mint.googlecode.com/svn/redbox-meta/tags/redbox-meta-1.0</url>
-        <connection>scm:svn:http://redbox-mint.googlecode.com/svn/redbox-meta/tags/redbox-meta-1.0</connection>
-        <developerConnection>scm:svn:https://redbox-mint.googlecode.com/svn/redbox-meta/tags/redbox-meta-1.0</developerConnection>
+        <url>http://redbox-mint.googlecode.com/svn/redbox-meta/trunk</url>
+        <connection>scm:svn:http://redbox-mint.googlecode.com/svn/redbox-meta/trunk</connection>
+        <developerConnection>scm:svn:https://redbox-mint.googlecode.com/svn/redbox-meta/trunk</developerConnection>
     </scm>
     <licenses>
         <license>
