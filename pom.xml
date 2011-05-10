@@ -5,10 +5,15 @@
     <artifactId>redbox-meta</artifactId>
     <packaging>pom</packaging>
     <version>1.1-SNAPSHOT</version>
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
     <name>ReDBox-Meta</name>
 
     <description>
-
+    This is the top-level organisation POM for the ReDBox-Mint project.
     </description>
     <url>http://redbox-mint.googlecode.com/</url>
     <inceptionYear>2010</inceptionYear>
@@ -33,44 +38,24 @@
             <archive>http://groups.google.com/group/redbox-repo</archive>
         </mailingList>
     </mailingLists>
-    <repositories>
-        <repository>
-            <id>fascinator-releases</id>
-            <url>https://fascinator.usq.edu.au/nexus/content/groups/public</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>fascinator-snapshots</id>
-            <url>https://fascinator.usq.edu.au/nexus/content/groups/public-snapshots</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-    <distributionManagement>
-        <repository>
-            <id>releases</id>
-            <name>The Fascinator Releases</name>
-            <url>https://fascinator.usq.edu.au/nexus/content/repositories/releases
-            </url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>The Fascinator Snapshots</name>
-            <url>https://fascinator.usq.edu.au/nexus/content/repositories/snapshots
-            </url>
-        </snapshotRepository>
-        <site>
-            <id>build.adfi.usq.edu.au</id>
-            <url>file:///var/www/hudson/${artifactId}-${version}</url>
-        </site>
-    </distributionManagement>
+    <developers>
+        <developer>
+            <name>Duncan Dickinson</name>
+        </developer>
+        <developer>
+            <name>Greg Pendlebury</name>
+        </developer>
+        <developer>
+            <name>Oliver Lucido</name>
+        </developer>
+        <developer>
+            <name>Linda Octalina</name>
+        </developer>
+        <developer>
+            <name>Ron Ward</name>
+        </developer>
+        <developer>
+            <name>Peter Sefton</name>
+        </developer>
+    </developers>
 </project>
