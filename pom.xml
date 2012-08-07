@@ -60,6 +60,9 @@
         <developer>
             <name>Peter Sefton</name>
         </developer>
+        <developer>
+            <name>Andrew Brazzatti</name>
+        </developer>
     </developers>
     <build>
         <pluginManagement>
