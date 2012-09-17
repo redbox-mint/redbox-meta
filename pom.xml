@@ -115,7 +115,7 @@
     </repository>
   </repositories>
   <scm>
-    <scmUrl>https://github.com/redbox-mint/redbox-meta</scmUrl>
+    <url>https://github.com/redbox-mint/redbox-meta</url>
     <developerConnection>scm:git:https://github.com/redbox-mint/redbox-meta</developerConnection>
   </scm>
 </project>
