@@ -1,124 +1,121 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>com.googlecode.redbox-mint</groupId>
-    <artifactId>redbox-meta</artifactId>
-    <packaging>pom</packaging>
-    <version>1.3-SNAPSHOT</version>
-    <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>7</version>
-    </parent>
-    <name>ReDBox-Meta</name>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jdk-version>1.6</jdk-version>
-    </properties>
-    <description>
-        This is the top-level organisation POM for the ReDBox-Mint project.
-    </description>
-    <url>http://redbox-mint.googlecode.com/</url>
-    <inceptionYear>2010</inceptionYear>
-    <scm>
-        <url>http://redbox-mint.googlecode.com/svn/redbox-meta/trunk</url>
-        <connection>scm:svn:http://redbox-mint.googlecode.com/svn/redbox-meta/trunk</connection>
-        <developerConnection>scm:svn:https://redbox-mint.googlecode.com/svn/redbox-meta/trunk</developerConnection>
-    </scm>
-    <licenses>
-        <license>
-            <name>GNU GENERAL PUBLIC LICENSE V2</name>
-            <url>http://www.gnu.org/licenses/gpl-2.0.txt</url>
-        </license>
-    </licenses>
-    <issueManagement>
-        <url>http://code.google.com/p/redbox-mint/issues/list</url>
-        <system>Google Code</system>
-    </issueManagement>
-    <mailingLists>
-        <mailingList>
-            <name>Mailing List</name>
-            <archive>http://groups.google.com/group/redbox-repo</archive>
-        </mailingList>
-    </mailingLists>
-    <developers>
-        <developer>
-            <name>Duncan Dickinson</name>
-        </developer>
-        <developer>
-            <name>Greg Pendlebury</name>
-        </developer>
-        <developer>
-            <name>Oliver Lucido</name>
-        </developer>
-        <developer>
-            <name>Linda Octalina</name>
-        </developer>
-        <developer>
-            <name>Ron Ward</name>
-        </developer>
-        <developer>
-            <name>Peter Sefton</name>
-        </developer>
-        <developer>
-            <name>Andrew Brazzatti</name>
-        </developer>
-    </developers>
-    <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <version>2.5.1</version>
-                    <configuration>
-                        <source>${jdk-version}</source>
-                        <target>${jdk-version}</target>
-                    </configuration>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-project-info-reports-plugin</artifactId>
-                    <version>2.4</version>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-javadoc-plugin</artifactId>
-                    <version>2.8.1</version>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-surefire-plugin</artifactId>
-                    <version>2.12</version>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
-                <version>4.10</version>
-                <scope>test</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-    <repositories>
-        <!-- Snapshots are not synched with Maven central -->
-        <repository>
-            <id>fascinator-snapshots</id>
-            <url>http://dev.redboxresearchdata.com.au/nexus/content/repositories/central-snapshots/</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>redbox-nexus</id>
-            <url>http://dev.redboxresearchdata.com.au/nexus/content/groups/public/</url>
-        </repository>
-    </repositories>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.googlecode.redbox-mint</groupId>
+  <artifactId>redbox-meta</artifactId>
+  <packaging>pom</packaging>
+  <version>1.3-SNAPSHOT</version>
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
+  <name>ReDBox-Meta</name>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <jdk-version>1.6</jdk-version>
+  </properties>
+  <description>This is the top-level organisation POM for the ReDBox-Mint project.</description>
+  <url>http://redbox-mint.googlecode.com/</url>
+  <inceptionYear>2010</inceptionYear>
+  <licenses>
+    <license>
+      <name>GNU GENERAL PUBLIC LICENSE V2</name>
+      <url>http://www.gnu.org/licenses/gpl-2.0.txt</url>
+    </license>
+  </licenses>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/redbox-mint/redbox-meta/issues</url>
+  </issueManagement>
+  <mailingLists>
+    <mailingList>
+      <name>Mailing List</name>
+      <archive>http://groups.google.com/group/redbox-repo</archive>
+    </mailingList>
+  </mailingLists>
+  <developers>
+    <developer>
+      <name>Duncan Dickinson</name>
+    </developer>
+    <developer>
+      <name>Greg Pendlebury</name>
+    </developer>
+    <developer>
+      <name>Oliver Lucido</name>
+    </developer>
+    <developer>
+      <name>Linda Octalina</name>
+    </developer>
+    <developer>
+      <name>Ron Ward</name>
+    </developer>
+    <developer>
+      <name>Peter Sefton</name>
+    </developer>
+    <developer>
+      <name>Andrew Brazzatti</name>
+    </developer>
+  </developers>
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>2.5.1</version>
+          <configuration>
+            <source>${jdk-version}</source>
+            <target>${jdk-version}</target>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-project-info-reports-plugin</artifactId>
+          <version>2.4</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-javadoc-plugin</artifactId>
+          <version>2.8.1</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.12</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.10</version>
+        <scope>test</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  <repositories>
+    <!-- Snapshots are not synched with Maven central -->
+    <repository>
+      <id>fascinator-snapshots</id>
+      <url>http://dev.redboxresearchdata.com.au/nexus/content/repositories/central-snapshots/</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>redbox-nexus</id>
+      <url>http://dev.redboxresearchdata.com.au/nexus/content/groups/public/</url>
+    </repository>
+  </repositories>
+  <scm>
+    <scmUrl>https://github.com/redbox-mint/redbox-meta</scmUrl>
+    <developerConnection>scm:git:https://github.com/redbox-mint/redbox-meta</developerConnection>
+  </scm>
 </project>
