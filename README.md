@@ -1,3 +1,3 @@
 redbox-meta
 ===========
-Purely an organisational POM for the ReDBox project
+Purely an organisational POM for the ReDBox project.
