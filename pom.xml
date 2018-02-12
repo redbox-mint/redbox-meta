@@ -13,7 +13,7 @@
   <name>ReDBox-Meta</name>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <jdk-version>1.6</jdk-version>
+    <jdk-version>1.7</jdk-version>
   </properties>
   <description>This is the top-level organisation POM for the ReDBox-Mint project.</description>
   <url>http://redbox-mint.googlecode.com/</url>
